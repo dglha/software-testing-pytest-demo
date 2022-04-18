@@ -6,6 +6,8 @@ from pages.CustomisedStatementPage import CustomisedStatementPage
 
 @pytest.mark.order(7)
 class TestCustomizedStatmentPage(BaseTest):
+
+    """ TC051 """
     def test_fund_trans(self):
         self.cusStatementPage = CustomisedStatementPage(self.driver)
         self.cusStatementPage.do_login(TestData.USER_ID, TestData.PASSWORD)

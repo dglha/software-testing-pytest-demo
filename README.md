@@ -26,4 +26,4 @@ pytest
 
 ![pytest result](images/Screenshot%202022-04-18%20152509.png)
 
-Return 4 test failure because of website error (Guru99 Bank v4).
+Return 4 tests failure because of website error (Guru99 Bank v4).

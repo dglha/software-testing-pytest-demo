@@ -7,7 +7,7 @@ from pages.LogoutPage import LogoutPage
 @pytest.mark.order(8)
 class TestLogoutPage(BaseTest):
 
-    """ TC"""
+    """ TC064 """
     def test_logout(self):
         self.logoutPage = LogoutPage(self.driver)
         self.logoutPage.do_login(TestData.USER_ID, TestData.PASSWORD)
